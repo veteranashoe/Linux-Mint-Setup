@@ -1,0 +1,47 @@
+#Linux Mint Setup
+---------------------------------------------------------
+configure /etc/fstab
+configure applets
+configure extensions
+set theme and icons
+setup conky
+------------------------------------------------------------
+#Bloat
+simple-scan xreader-dbg bulky hexchat hypnotix rhythmbox transmission-gtk thunderbird redshift-gtk warpinator xreader xviewer
+
+#Optional Bloat
+timeshift celluloid gnome-calculator
+imagemagick kdeconnect imagemagick-6-common
+------------------------------------------------------------
+#Repository
+sudo add-apt-repository ppa:nemonein/bomi
+sudo add-apt-repository ppa:christian-boxdoerfer/fsearch-daily
+-------------------------------------------------------------------
+#to install
+grub-customizer conky-all deepin-picker alacarte nautilus kwrite stacer qbittorrent deepin-image-viewer deepin-calculator okular geeqie gwenview mpv vlc soundkonverter thunar bomi fsearch git
+-------------------------------------------------------------
+configure software sources
+configure keyboard shortcuts
+customize terminal
+------------------------------------------------------------
+ntfs auto mount "/etc/fstab"
+/dev/sda3	/media/natalie/Oiacis	ntfs-3g	uid=1000,gid=1000,umask=0022,fmask=0022	0	0
+-------------------------------------------------------------
+instagram dark-mode
+https://www.instagram.com/?theme=dark
+-----------------------------------------------------------
+ICONS
+##Kora Grey
+wget https://dl1.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MTY0MTIyMDE1NiwidSI6bnVsbCwibHQiOiJkb3dubG9hZCIsInMiOiIyMzI2YzRiZjkwZWRhZjZhODdiNWUzYjdjZmE3MDc2Zjg0N2RlNzk1NzU1NTYwMzZiNTVjYTIwMDUyNWYxMTZlOGY4MjUwZDg0MTg3NjJlNjU3ZTEwZmZhMTQyMmZiZGYwYzdlZGRmYjQ5NWQ0NmIwNmJlNzUwMWY1NGM3YzQ5YSIsInQiOjE2NDUyMTc5MDksInN0ZnAiOiJlMGFmODExODdhOGZkZjk1NTc5NzM1N2ZkZTg1MjQxZiIsInN0aXAiOiIxODUuMjUzLjk3LjE3NSJ9.K43SxrwJxEOQYr_mjXqkdUAwJTtCAznkFCdfpbw_BBg/KORA_Grey_1-5.zip
+##Cursor
+wget https://dl3.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MTYwMDA4ODM1OSwidSI6bnVsbCwibHQiOiJkb3dubG9hZCIsInMiOiJkN2ZmYmZjNDA2Y2I1YzI3MmI2Y2Y3NmE5ZTdhZjA0MTc0ZmNjNDQ1NTc5MDNlMDY5ZGQwZWUzODUxYzYwMWE3MjhmOTc5YmNmNDZmZTZkNzMxZDY5OTA3MWE0ZGU1MjM3MGQ4N2IyNDNhMTAzMWU4MzFkNTQ4OTBmZTMyODhjMSIsInQiOjE2NDUyMTgxNzIsInN0ZnAiOiJlMGFmODExODdhOGZkZjk1NTc5NzM1N2ZkZTg1MjQxZiIsInN0aXAiOiIxODUuMjUzLjk3LjE3NSJ9.iRz2q9qDGyBUkHzdZEqRJSQPE5HH1fROtXApBtW9PWE/DeppinDark-cursors.tar.gz
+--------------------------------------------------------------
+THEMES
+##Vimix Grub (1080p)
+wget https://dl2.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MTU3MjI1MDM5MiwidSI6bnVsbCwibHQiOiJkb3dubG9hZCIsInMiOiJlZmY0YTZkNzY5MzM3MmRjNTllNjUwZDE4N2QyZDIyZGVjNGU0NTc3MjExNDA2ZDdiMmUyYWI3OTBiMTNhNzJmZmNjOTNmZTdhZDkxYzRhMGU0ZGJlNTQ3ZjA4ZTg2NTRlZDg3MTJmZDFjNmQ0OGFiOTNmY2UzYTI2ZWE2NmYyOSIsInQiOjE2NDUyMTgzMTIsInN0ZnAiOiJlMGFmODExODdhOGZkZjk1NTc5NzM1N2ZkZTg1MjQxZiIsInN0aXAiOiIxODUuMjUzLjk3LjE3NSJ9.LtIAa3ps6htkwjjvZDjDoreQCb7gczpT1DNVMNqmEh4/Vimix-1080p.tar.xz
+
+##Adara Dark
+wget https://cinnamon-spices.linuxmint.com/files/themes/Adara-Dark.zip?time=1645214851
+##Juno Ocean
+wget https://dl3.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MTY0NDcwMjc0NiwidSI6bnVsbCwibHQiOiJkb3dubG9hZCIsInMiOiI2YWExOTY0Mzg1NGExYmM1NmFiNzFkZDZjMWQ3MTA1NTM2YmJjYzZhNzI5NDNmYzhlNDRkYzU0YTRiOGZiMWI2NTQxODU0MTcxODExNWIwMTZiODIwNTNkYmY2MGQ1MmUzODNlZWI2ZTg1YThjMzNiMTczOGM2NWJiOTgxYWM3YSIsInQiOjE2NDUyMTg2MzEsInN0ZnAiOiJlMGFmODExODdhOGZkZjk1NTc5NzM1N2ZkZTg1MjQxZiIsInN0aXAiOiIxODUuMjUzLjk3LjE3NSJ9.0bwsROS1MyrhuoY5BQ97AtRkMwBFlfQgzdkyCdgnLz4/Juno-ocean-standard-buttons-v40.tar.xz
+----------------------------------------------------------------
