@@ -40,10 +40,8 @@ sudo add-apt-repository ppa:christian-boxdoerfer/fsearch-daily
 
 -----------------------------------------------------------
 => Personalization
-   #THEME
-   #ICONS
-   #Cursor ICONS
-   #Grub THEME
+   #THEME  #ICONS  #Cursor ICONS  #Grub THEME
+https://mega.nz/folder/NTgDRQSS#T8LusIi3pz95B9dj4iJiaw
 
 ----------------------------------------------------------------
 

@@ -17,10 +17,9 @@ sudo add-apt-repository ppa:christian-boxdoerfer/fsearch-daily
 /dev/sda3	/media/natalie/Oiacis	ntfs-3g	uid=1000,gid=1000,umask=0022,fmask=0022	0	0
 -------------------------------------------------------------
 => Personalization
-   #THEME
-   #ICONS
-   #Cursor ICONS
-   #Grub THEME
+   #THEME  #ICONS  #Cursor ICONS  #Grub THEME
+https://mega.nz/folder/NTgDRQSS#T8LusIi3pz95B9dj4iJiaw
+
 ----------------------------------------------------------------
 => Ulauncher Extensions
    -> fuzzy finder
