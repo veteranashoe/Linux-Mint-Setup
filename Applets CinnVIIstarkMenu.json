@@ -179,7 +179,7 @@
         "tooltip": "Select an icon to show in the panel.",
         "dependency": "menu-custom",
         "indent": true,
-        "value": "org.kde.plasma.grouping"
+        "value": "windows"
     },
     "menu-label": {
         "type": "entry",
@@ -579,7 +579,7 @@
             },
             {
                 "checkbox": true,
-                "command": "kwrite %U",
+                "command": "xed %U",
                 "label": "Text Editor",
                 "icon": "open-for-editing"
             },
