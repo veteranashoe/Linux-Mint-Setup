@@ -1,0 +1,77 @@
+#Linux Mint Setup
+---------------------------------------------------------
+configure /etc/fstab
+configure applets
+configure extensions
+set theme and icons
+setup conky
+------------------------------------------------------------
+#Bloat
+sudo apt remove simple-scan xreader-dbg bulky hexchat hypnotix rhythmbox transmission-gtk thunderbird redshift-gtk warpinator xreader xviewer
+
+#Optional Bloat
+sudo apt remove timeshift celluloid gnome-calculator imagemagick kdeconnect imagemagick-6-common
+------------------------------------------------------------
+#to install
+sudo apt install grub-customizer conky-all deepin-picker alacarte stacer qbittorrent deepin-image-viewer deepin-calculator okular geeqie gwenview mpv vlc soundkonverter thunar bomi fsearch git python3-pip
+
+#OPtional install
+sudo apt install nautilus eog kwrite
+-------------------------------------------------------------
+#Repository
+sudo add-apt-repository ppa:nemonein/bomi
+sudo add-apt-repository ppa:christian-boxdoerfer/fsearch-daily
+-------------------------------------------------------------------
+configure software sources
+configure keyboard shortcuts
+customize terminal
+------------------------------------------------------------
+#ntfs auto mount "/etc/fstab"
+/dev/sda3	/media/natalie/Oiacis	ntfs-3g	uid=1000,gid=1000,umask=0022,fmask=0022	0	0
+-------------------------------------------------------------
+instagram dark-mode
+https://www.instagram.com/?theme=dark
+-----------------------------------------------------------
+ICONS
+##Cursor
+git clone https://github.com/linuxdeepin/deepin-icon-theme.git
+
+##Flat Remix
+git clone https://github.com/daniruiz/flat-remix.git
+--------------------------------------------------------------
+THEMES
+##Vimix Grub (1080p)
+git clone https://github.com/Se7endAY/grub2-theme-vimix.git
+
+##Adara Dark
+
+##Juno Ocean
+git clone https://github.com/EliverLara/Juno.git
+----------------------------------------------------------------
+#Ulauncher Extensions
+-> fuzzy finder
+https://github.com/hillaryychan/ulauncher-fzf
+
+-> Network Manager
+https://github.com/melianmiko/ulauncher-nmcli
+
+-> vs workspaces
+https://github.com/barathbheeman/vsw-extension/
+
+-> symbol search
+https://github.com/rootwork/ulauncher-symbol
+
+-> VS Code Recent
+https://github.com/plibither8/ulauncher-vscode-recent
+
+-> Calculate Anything
+https://github.com/tchar/ulauncher-albert-calculate-anything
+
+-> System Management Direct
+https://github.com/episode6/ulauncher-system-management-direct
+
+-> Youtube Search
+https://github.com/NastuzziSamy/ulauncher-youtube-search
+
+-> Emoji Search
+https://github.com/Ulauncher/ulauncher-emoji
