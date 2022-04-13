@@ -563,11 +563,11 @@
                 "checkbox": true,
                 "command": "cinnamon-settings",
                 "label": "System Settings",
-                "icon": "preferences-system"
+                "icon": "preferences-system-symbolic.symbolic"
             },
             {
                 "checkbox": true,
-                "command": "gnome-system-monitor",
+                "command": "ksysguard",
                 "label": "System Moniter",
                 "icon": "utilities-system-monitor-symbolic"
             },
@@ -594,6 +594,12 @@
                 "command": "fsearch",
                 "label": "Search",
                 "icon": "search"
+            },
+            {
+                "checkbox": true,
+                "command": "gnome-screenshot --interactive",
+                "label": "Screenshot",
+                "icon": "gnome-screenshot-symbolic"
             }
         ]
     },
