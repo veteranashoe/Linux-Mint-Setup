@@ -160,7 +160,7 @@
         "type": "checkbox",
         "default": false,
         "description": "Use symbolic icon",
-        "value": true
+        "value": false
     },
     "keyToggle": {
         "type": "keybinding",
@@ -286,7 +286,7 @@
         "units": "K",
         "step": 5,
         "description": "Temperature",
-        "value": 3500
+        "value": 4500
     },
     "nightBrightness": {
         "type": "spinbutton",
@@ -297,7 +297,7 @@
         "units": "%",
         "step": 1,
         "description": "Brightness",
-        "value": 79
+        "value": 100
     },
     "locationRemote": {
         "type": "checkbox",
