@@ -4,7 +4,7 @@ Linux Mint Setup
 sudo apt remove simple-scan xreader-dbg bulky hexchat hypnotix rhythmbox transmission-gtk thunderbird redshift-gtk warpinator xreader xviewer
 
 => Optional Bloat
-sudo apt remove timeshift celluloid gnome-calculator imagemagick kdeconnect imagemagick-6-common timidity
+sudo apt remove timeshift gnome-calculator imagemagick kdeconnect imagemagick-6-common timidity
 
 => to install
 sudo apt install grub-customizer conky-all deepin-picker alacarte stacer qbittorrent deepin-image-viewer deepin-calculator okular geeqie gwenview mpv vlc soundkonverter thunar bomi fsearch git python3-pip
@@ -18,11 +18,7 @@ sudo add-apt-repository ppa:nemonein/bomi && sudo add-apt-repository ppa:christi
 
 ------------------------------------------------------------
 Brave Browser installation
-> sudo apt install apt-transport-https curl
-> sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg
-> echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg arch=amd64] https://brave-browser-apt-release.s3.brave.com/ stable main"|sudo tee /etc/apt/sources.list.d/brave-browser-release.list
-> sudo apt update
-> sudo apt install brave-browser
+> sudo apt install apt-transport-https curl && sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg && echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg arch=amd64] https://brave-browser-apt-release.s3.brave.com/ stable main"|sudo tee /etc/apt/sources.list.d/brave-browser-release.list && sudo apt update && sudo apt install brave-browser
 
 ---------------------------------------------------------------
 => sudo nano /etc/fstab
@@ -63,3 +59,5 @@ https://github.com/Ulauncher/ulauncher-emoji
 -----------------------------------------------------------
 instagram dark-mode
 https://www.instagram.com/?theme=dark
+-----------------------------------------------------------
+Bulk Rename: thunar --bulk-rename
