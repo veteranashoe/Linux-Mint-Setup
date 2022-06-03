@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Exec=conky -c'$HOME/.config/conky/natalie.conkyrc  (Legion V)'
+X-GNOME-Autostart-enabled=true
+NoDisplay=false
+Hidden=false
+Name[en_IN]=conky
+Comment[en_IN]=No description
+X-GNOME-Autostart-Delay=0

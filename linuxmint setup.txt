@@ -24,6 +24,15 @@ Brave Browser installation
 => sudo nano /etc/fstab
 /dev/drive	/media/user/drive	ntfs-3g	uid=1000,gid=1000,umask=0022,fmask=0022	0	0
 -------------------------------------------------------------
+=> restore keyboard shortcuts
+dconf load /org/cinnamon/desktop/keybindings/ <keybindings-backup.dconf
+
+-------------------------------------------------------------
+=> restore gnome-terminal preferencess
+cat ~/gterminal.profiles | dconf load /org/gnome/terminal/legacy/profiles:/
+
+
+------------------------------------------------------------
 => Personalization
    #THEME  #ICONS  #Cursor ICONS  #Grub THEME
 

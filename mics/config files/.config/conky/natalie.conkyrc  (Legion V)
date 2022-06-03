@@ -102,7 +102,7 @@ ${color2}${diskiograph_read /dev/nvme0n1p6 30,130} ${alignr}${diskiograph_write 
 ${voffset -15}${color4}${stippled_hr 15 1}
 #----------+
 ##Drive
-${color1}Data :  ${color2}${fs_free /media/natalie/Data} / ${color2}${fs_size /media/natalie/Data} ${alignr}${color3}${fs_bar 10, 170 /media/natalie/Data}
+${color1}Data :  ${color2}${fs_free /media/natalie/D-Drive} / ${color2}${fs_size /media/natalie/D-Drive} ${alignr}${color3}${fs_bar 10, 170 /media/natalie/D-Drive}
 ${color2}Read: ${color}${diskio_read /dev/nvme0n1p5}${goto 250}${color2}Write: ${color}${diskio_write /dev/nvme0n1p5}
 ${color2}${diskiograph_read /dev/nvme0n1p5 30,130} ${alignr}${diskiograph_write /dev/nvme0n1p5 30,130}
 #------------<>
