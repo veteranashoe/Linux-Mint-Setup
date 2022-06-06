@@ -1,3 +1,19 @@
+[:b1dcc9dd-5262-4d8d-a863-c897e6d979b9]
+background-color='rgb(0,0,0)'
+background-transparency-percent=11
+cursor-shape='ibeam'
+default-size-columns=85
+default-size-rows=24
+font='Monospace 11'
+foreground-color='rgb(95,204,255)'
+palette=['rgb(46,52,54)', 'rgb(204,0,0)', 'rgb(12,236,221)', 'rgb(12,236,221)', 'rgb(52,101,164)', 'rgb(117,80,123)', 'rgb(6,152,154)', 'rgb(211,215,207)', 'rgb(85,87,83)', 'rgb(239,41,41)', 'rgb(162,57,234)', 'rgb(252,233,79)', 'rgb(114,159,207)', 'rgb(173,127,168)', 'rgb(52,226,226)', 'rgb(238,238,236)']
+scrollbar-policy='never'
+use-system-font=false
+use-theme-colors=false
+use-theme-transparency=false
+use-transparent-background=true
+visible-name='natalie'
+
 [legacy]
 default-show-menubar=false
 

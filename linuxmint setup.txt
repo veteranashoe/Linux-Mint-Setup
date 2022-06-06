@@ -29,8 +29,7 @@ dconf load /org/cinnamon/desktop/keybindings/ <keybindings-backup.dconf
 
 -------------------------------------------------------------
 => restore gnome-terminal preferencess
-cat ~/gterminal.profiles | dconf load /org/gnome/terminal/legacy/profiles:/
-
+dconf load /org/gnome/terminal/legacy/profiles:/ < gnome-terminal-profiles.dconf
 
 ------------------------------------------------------------
 => Personalization
